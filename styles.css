@@ -217,6 +217,10 @@ address{
 		grid-template-rows: 1fr 1fr 1fr;
 		column-gap: 20px;
 	}
+
+	#gallery p:last-of-type{
+		margin-left: 0;
+	}
 }
 /* MEDIA QUERY (large) */
 @media screen and (min-width: 900px){
